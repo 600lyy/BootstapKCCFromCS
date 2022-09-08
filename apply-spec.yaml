@@ -1,9 +1,9 @@
 applySpecVersion: 1
 spec:
   configSync:
-    enabled: false
+    enabled: true
     sourceFormat: unstructured
-    syncRepo: https://github.com/600lyy/BootstapKCCFromCS
+    syncRepo: https://github.com/600lyy/configsync-with-kcc
     syncBranch: main
     secretType: token
     policyDir: /
