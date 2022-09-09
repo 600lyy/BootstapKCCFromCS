@@ -10,7 +10,7 @@ spec:
     repo: https://github.com/600lyy/BootstapKCCFromCS.git
     # If you move the configs to a different branch, update the branch here
     branch: main
-    dir: "namespaces"
+    dir: namespaces
     auth: token
     secretRef:
       name: git-creds
