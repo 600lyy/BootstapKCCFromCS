@@ -1,0 +1,1 @@
+Check in an empty folder
