@@ -1,0 +1,14 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: root-ns-sync
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  git:
+   repo: https://github.com/600lyy/BootstapKCCFromCS
+     branch: main
+     dir: namespaces
+     auth: token
+     secretRef:
+       name: git-creds
