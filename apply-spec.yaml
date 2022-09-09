@@ -3,9 +3,9 @@ spec:
   configSync:
     enabled: true
     sourceFormat: unstructured
-    syncRepo: https://github.com/600lyy/configsync-with-kcc
+    syncRepo: https://github.com/600lyy/BootstapKCCFromCS
     syncBranch: main
     secretType: token
-    policyDir: /
+    policyDir: cluster
   policyController:
     enabled: false 
